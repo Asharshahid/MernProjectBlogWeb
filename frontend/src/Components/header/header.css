@@ -1,0 +1,34 @@
+:root{
+    --black:rgb(57, 57, 57);
+}
+.header{
+    margin-top: 50px;
+}
+.headerImage> img{
+    width: 100%;
+    height: 500px;
+    margin-top: 86px;
+}
+.headerTextItems{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.textItemSm{
+    font-family: "lora";
+    font-weight: 500;
+    position: absolute;
+    top: 17%;
+    font-size: 1.7rem;
+    color: var(--black);
+}
+.textItemLg{
+    font-family: "lora";
+    font-weight: 500;
+    position: absolute;
+    top: 20%;
+    font-size: 9rem;
+    color: rgb(209, 209, 209);
+
+}
+

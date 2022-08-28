@@ -1,0 +1,49 @@
+:root{
+    --blackLight:rgb(194, 194, 194);
+    --black:rgb(70, 70, 70);
+}
+.post{
+    height: 500px;
+    margin: 20px 10px;
+    width: 350px;
+    /* min-width: 300px; */
+    border-radius: 5px;
+    box-shadow: .2px .2px 10px rgb(190, 190, 190);
+}
+.post img{
+    width: 100%;
+    min-height: 250px;
+    max-height: 300px;
+    border-top-left-radius:5px;
+    border-top-right-radius: 5px;
+}
+.postType{
+    text-align: center;
+    margin: 5px;
+    color: var(--blackLight);
+}
+.postType span{
+    margin: 10px;
+}
+.postTitle{
+    font-size: 2rem;
+    font-weight: 800;
+    text-align: center;
+    margin: 12px 0;
+    color: black;
+}
+.postTitleLink{
+    text-decoration: none;
+}
+.postTime{
+    text-align: center;
+    margin: 5px 0;
+    color: var(--blackLight);
+
+}
+.post .postDescrpt{
+    width: 97%;
+    margin: 10px 5px;
+    padding: 5px;
+    color: var(--black);
+}

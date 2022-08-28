@@ -1,0 +1,59 @@
+:root{
+    --lightRed:lightcoral;
+}
+.login{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-image: url(https://images.unsplash.com/photo-1516979187457-637abb4f9353?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxleHBsb3JlLWZlZWR8MTd8fHxlbnwwfHx8fA%3D%3D&auto=format&fit=crop&w=400&q=60);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 87.2vh;
+}
+.login>span{
+    font-size: 40px;
+    margin-top: 100px;
+    margin-bottom: 20px;
+    font-weight: 500;
+}
+.login label{
+    font-size: 20px;
+    margin: 10px 0;
+}
+.loginForm{
+    display: flex;
+    flex-direction: column;
+}
+.loginForm>input{
+    padding: 10px;
+    font-size: 15px;
+    margin: 5px 0;
+    border: none;
+}
+.loginForm>.loginSubmit{
+    margin: 10px 0;
+    padding: 10px 0;
+    cursor: pointer;
+    font-size: 15px;
+    background-color: var(--lightRed);
+    color: white;
+    border: none;
+    border-radius: 10px;
+}
+.loginForm>.loginSubmit:disabled{
+    background-color: aquamarine;
+    cursor: not-allowed;
+}
+.login>.registerButton{
+    position: absolute;
+    top: 10px;
+    right: 50px;
+    border: none;
+    padding: 10px 30px;
+    color: white;
+    background-color: rgb(65, 231, 175);
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 15px;
+}

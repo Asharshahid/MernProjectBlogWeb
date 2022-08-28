@@ -1,0 +1,90 @@
+:root{
+    --black:rgb(57, 57, 57);
+    --lightRed:lightcoral;
+    --lightgreen:lightgreen;
+}
+
+.topbarMain{
+    display: flex;
+    height: 80px;
+    width: 100%;
+    color: var(--black);
+    position: sticky;
+    top: 0;
+    background-color: white;
+}
+
+ .left , .right{
+    display: flex;
+    flex: 3;
+    align-items: center;
+    justify-content: center;
+}
+.left>i{
+    margin: 5px;
+    font-size: 30px;
+    cursor: pointer;
+
+}
+.center{
+    display: flex;
+    flex: 6;
+    align-items: center;
+    justify-content: center;
+}
+.center>ul{
+    padding: 0;
+    display: flex;
+}
+.center>ul>li{
+    list-style: none;
+    margin: 5px;
+}
+.center .link, .registerLoginLinkTopbar{
+    text-decoration: none;
+    padding: 8px 12px;
+    font-family: 'Varela';
+    color: rgb(87, 87, 87);
+}
+.registerLoginLinkTopbar{
+    margin: 0 5px;
+} 
+.center .link:hover{
+    background-color: var(--lightRed);
+    color: white;
+    border-radius: 5px;
+    transition: 1s;
+}
+.registerLoginLinkTopbar:hover{
+    background-color: var(--lightgreen);
+    color: white;
+    border-radius: 5px;
+    transition: 1s;
+}
+
+.right>.myProfileImgLink>img{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    margin: 5px 10px;
+    cursor: pointer;
+    position: absolute;
+}
+.myProfileImgLink{
+    position: relative;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    margin: 5px 10px;
+}
+
+.right>i{
+    font-size: 30px;
+    margin: 5px 10px;
+    cursor: pointer;
+}
+
+.left i:hover, .right i:hover{
+    color: var(--lightRed);
+    transition: 1s;
+}
